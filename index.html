@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カウントダウンタイマー</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>カウントダウンタイマー</h1>
+        <form class="event-form">
+            <label for="event-name">イベント名:</label>
+            <input type="text" id="event-name" placeholder="例: 誕生日パーティー" required>
+            <label for="event-date">日付と時間:</label>
+            <input type="datetime-local" id="event-date" required>
+            <button type="button" id="add-event">追加</button>
+        </form>
+        <ul class="event-list">
+            <!-- JavaScriptで動的にイベントを追加 -->
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
